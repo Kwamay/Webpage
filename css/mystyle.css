@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: grey;
+}
+
+.header-content {
+  display: flex;
+  justify-content: flex-end;
+  align-content: space-around;
+  gap: 1rem;
+}
+
+.logo {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+}
+
+.head-words {
+  color: #000;
+  font-size: 20px;
+}
+
+body {
+  background-image: url("../images/friends_forever.jpg");
+  background-position: top center;
+  font-family: Nunito, sans-serif;
+}
+
+.content {
+ margin: 300px 60px 200px ;
+ 
+ 
+ 
+}
+
+.intro {
+  font-size: 40px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.des-content {
+  margin: 1rem 0 0;
+  font-size: 15px;
+  letter-spacing: 2px;
+ }
+
+ .connect {
+  margin: 2rem 0 0 0;
+  color: blue;
+  font-size: 15px;
+ }
+
+ .row {
+  display: block;
+  margin: 20px auto;
+ }
+
+ .social {
+  margin: 0 20px 0 0;
+  object-fit: contain;
+  aspect-ratio: 3/2;
+ }
