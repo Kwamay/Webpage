@@ -13,13 +13,16 @@
   justify-content: flex-end;
   align-content: space-around;
   gap: 1rem;
+  margin: 0 150px 0 0;
 }
 
 .logo {
   font-size: 20px;
   display: flex;
-  flex-direction: column-reverse;
-  justify-content: flex-end;
+  flex-direction: column;
+  align-content: flex-end;
+  color: blue;
+  
 }
 
 .head-words {
@@ -34,22 +37,21 @@ body {
 }
 
 .content {
- margin: 300px 60px 200px ;
- 
- 
- 
+ margin: 200px 150px 200px ;
+  
 }
 
 .intro {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: bold;
   white-space: nowrap;
 }
 
 .des-content {
   margin: 1rem 0 0;
-  font-size: 15px;
+  font-size: 18px;
   letter-spacing: 2px;
+  color: #424141;
  }
 
  .connect {
@@ -60,7 +62,7 @@ body {
 
  .row {
   display: block;
-  margin: 20px auto;
+  margin: 15px auto;
  }
 
  .social {
