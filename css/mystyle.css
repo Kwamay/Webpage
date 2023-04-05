@@ -4,24 +4,27 @@
   box-sizing: border-box;
 }
 
-.header {
-  background-color: grey;
-}
-
 .header-content {
   display: flex;
   justify-content: flex-end;
-  align-content: space-around;
-  gap: 1rem;
-  margin: 0 150px 0 0;
-  background-color: #424141;
-  height: 3rem;
+  gap: 1.5rem;
+  margin-right: 150px;
+  list-style-type: none;
 }
 
 .logo {
   font-size: 20px;
   color: blue;
-  margin: 0 800px 0 0;
+  margin-left: 70px;
+  
+}
+
+body {
+  background-image: url("../images/friends_forever.jpg");
+  background-position: top center;
+  font-family: Nunito, sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .head-words {
@@ -29,11 +32,6 @@
   font-size: 20px;
 }
 
-body {
-  background-image: url("../images/friends_forever.jpg");
-  background-position: top center;
-  font-family: Nunito, sans-serif;
-}
 
 .content {
   margin: 200px 150px 200px;
@@ -43,6 +41,8 @@ body {
   font-size: 50px;
   font-weight: bold;
   white-space: nowrap;
+  list-style: decimal;
+  display: block;
 }
 
 .des-content {
@@ -56,6 +56,7 @@ body {
   margin: 2rem 0 0 0;
   color: blue;
   font-size: 15px;
+  display: block;
 }
 
 .row {
