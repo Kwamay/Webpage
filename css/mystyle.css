@@ -14,15 +14,14 @@
   align-content: space-around;
   gap: 1rem;
   margin: 0 150px 0 0;
+  background-color: #424141;
+  height: 3rem;
 }
 
 .logo {
   font-size: 20px;
-  display: flex;
-  flex-direction: column;
-  align-content: flex-end;
   color: blue;
-  
+  margin: 0 800px 0 0;
 }
 
 .head-words {
@@ -37,8 +36,7 @@ body {
 }
 
 .content {
- margin: 200px 150px 200px ;
-  
+  margin: 200px 150px 200px;
 }
 
 .intro {
@@ -52,21 +50,21 @@ body {
   font-size: 18px;
   letter-spacing: 2px;
   color: #424141;
- }
+}
 
- .connect {
+.connect {
   margin: 2rem 0 0 0;
   color: blue;
   font-size: 15px;
- }
+}
 
- .row {
+.row {
   display: block;
   margin: 15px auto;
- }
+}
 
- .social {
+.social {
   margin: 0 20px 0 0;
   object-fit: contain;
   aspect-ratio: 3/2;
- }
+}
