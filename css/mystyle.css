@@ -7,17 +7,23 @@
 .header-content {
   display: flex;
   justify-content: flex-end;
-  gap: 1.5rem;
-  margin-right: 150px;
+  align-items: center;
   list-style-type: none;
+  background-color: whitesmoke;
+  border-radius: 0.5em;
+  padding: 1rem 0;
 }
 
-.logo {
-  font-size: 20px;
-  color: blue;
-  margin-left: 70px;
-  
+.head-words {
+  margin-right: 4rem;
 }
+
+.head-words:first-child {
+  margin-right:auto;
+  margin-left: 2rem;
+  color: blue;
+}
+
 
 body {
   background-image: url("../images/friends_forever.jpg");
@@ -25,11 +31,6 @@ body {
   font-family: Nunito, sans-serif;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.head-words {
-  color: #000;
-  font-size: 20px;
 }
 
 
