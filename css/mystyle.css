@@ -3,70 +3,230 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+body {
+  background-color: #e5e5e5;  
+}
 .header-content {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   list-style-type: none;
-  background-color: whitesmoke;
+  background-color: #ffffff;
   border-radius: 0.5em;
   padding: 1rem 0;
 }
 
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#ffffff;
+  border-bottom-left-radius: 100px;
+}
+
 .head-words {
-  margin-right: 4rem;
+  margin-right: 32px;
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Poppins' sans-serif;
+  line-height: 20px;
 }
 
 .head-words:first-child {
   margin-right:auto;
-  margin-left: 2rem;
-  color: blue;
+  margin-left: 155px;
+  color: #6070ff;
+}
+
+.head-words:last-child {
+  margin-right: 155px;
 }
 
 
 body {
-  background-image: url("../images/friends_forever.jpg");
-  background-position: top center;
-  font-family: Nunito, sans-serif;
+  font-family: 'Poppins', sans-serif;
+  }
+
+.background {
+  background-image: url(../images/dektop-images/desktop-background.png);
+  background-position: top;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  height: 721.46px;
+  width: 1397.4px;
+  top: 119px;
 }
 
 
 .content {
-  margin: 200px 150px 200px;
+  margin: 241px 260px 200px;
+ 
 }
 
 .intro {
-  font-size: 50px;
-  font-weight: bold;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #091e42;
   white-space: nowrap;
-  list-style: decimal;
   display: block;
+  font-family: 'Poppins', sans-serif;
 }
 
 .des-content {
   margin: 1rem 0 0;
-  font-size: 18px;
-  letter-spacing: 2px;
-  color: #424141;
+  font-size: 20px;
+  font-style: none;
+  font-family: 'Poppins', sans-serif;
+  line-height: 28px;
+  color: #344563;
+  width: 920px;
+  height: 9px;
 }
 
 .connect {
-  margin: 2rem 0 0 0;
-  color: blue;
+  margin-top: 100px;
+  color: #7f8cff;
   font-size: 15px;
   display: block;
 }
 
 .row {
   display: block;
-  margin: 15px auto;
+  margin: 14px auto;
 }
 
 .social {
   margin: 0 20px 0 0;
   object-fit: contain;
   aspect-ratio: 3/2;
+}
+
+.container {
+background-color: #e5e5e5;
+}
+
+.sm-container {
+  display: grid;
+  width: 1156px;
+  height: 450px;
+  grid-template-columns: 614px auto;
+  grid-template-rows: 1fr 1fr;
+  border-radius: 24px;
+  margin: 142px auto;
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+}
+
+.image {
+  height: 448px;
+  width: 614px;
+  display: block;
+  padding: 24px 46px 24px 24px;
+}
+
+.image-2 {
+  height: 448px;
+  width: 614px;
+  display: block;
+  padding: 24px 114px 24px 46px;
+  margin: 0px 46px 0 0;
+}
+
+.img-content {
+  margin: 48px 46px 0 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.img-content-2 {
+  margin: 48px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.bar-word {
+  height: 46px;
+  width: 496px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #091e42;
+  margin-bottom: 20px;
+}
+
+.nav-items{
+  display: flex;
+  justify-content: flex-start;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+
+.canopy {
+  width: 75px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #344563;
+  list-style-type: none;
+}
+
+.back-year {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #6b778c;
+}
+
+.text {
+  width: 496px;
+  height: 50px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  /* margin-top: 20px; */
+  
+}
+
+.language {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  gap: 8px;
+  color: #6070ff;
+  margin-top: 28px;
+}
+
+.language-type {
+  background-color: #ebebff;
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.project-button {
+  color: #396df2;
+  background-color: transparent;
+  border: 1px solid #dfe1e6;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 12px;
+  margin-top: 52px;
+}
+
+button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+button:active {
+  background-color: #2230d2;
+  color: white;
 }
